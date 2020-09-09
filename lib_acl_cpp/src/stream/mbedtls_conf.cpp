@@ -9,14 +9,14 @@
 //#define DEBUG_SSL
 
 #ifdef HAS_MBEDTLS
-# include "mbedtls-2.7.12/threading_alt.h"
-# include "mbedtls-2.7.12/ssl.h"
-# include "mbedtls-2.7.12/ctr_drbg.h"
-# include "mbedtls-2.7.12/entropy.h"
-# include "mbedtls-2.7.12/certs.h"
-# include "mbedtls-2.7.12/x509_crt.h"
-# include "mbedtls-2.7.12/x509.h"
-# include "mbedtls-2.7.12/ssl_cache.h"
+# include "smbedtls/threading_alt.h"
+# include "smbedtls/ssl.h"
+# include "smbedtls/ctr_drbg.h"
+# include "smbedtls/entropy.h"
+# include "smbedtls/certs.h"
+# include "smbedtls/x509_crt.h"
+# include "smbedtls/x509.h"
+# include "smbedtls/ssl_cache.h"
 #endif
 
 #ifndef ACL_PREPARE_COMPILE

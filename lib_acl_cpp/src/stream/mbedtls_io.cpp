@@ -7,11 +7,11 @@
 #endif
 
 #ifdef HAS_MBEDTLS
-# include "mbedtls-2.7.12/ssl.h"
-# include "mbedtls-2.7.12/havege.h"
-# include "mbedtls-2.7.12/ctr_drbg.h"
-# include "mbedtls-2.7.12/entropy.h"
-# include "mbedtls-2.7.12/net_sockets.h"
+# include "smbedtls/ssl.h"
+# include "smbedtls/havege.h"
+# include "smbedtls/ctr_drbg.h"
+# include "smbedtls/entropy.h"
+# include "smbedtls/net.h"
 #endif
  
 #ifndef ACL_PREPARE_COMPILE

@@ -24,6 +24,7 @@
 
 #  include <ws2tcpip.h> /* for getaddrinfo */
 #  if _MSC_VER >= 1500
+#	include <winternl.h>
 #   include <netioapi.h>
 #  endif
 
